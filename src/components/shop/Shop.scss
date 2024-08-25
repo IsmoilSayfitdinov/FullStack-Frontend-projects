@@ -1,0 +1,150 @@
+.shop_main{
+    display: flex;
+    .sidebar{
+        padding-left: 40px;
+        padding-top: 70px;
+        width: 400px;
+        background-color: white;
+        margin-top: 10px;
+        padding-bottom: 20px;   
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        .cate_cate{
+            margin-left:20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h2{
+                margin-left: 20px;
+                font-size: 30px;
+                font-family: sans-serif;
+                color: rgb(6, 103, 148);
+            }
+            ul{
+                list-style: none;
+                li{
+                    margin-left: 20px;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    color: rgb(6, 103, 148);
+                    margin-top: 10px;
+                    cursor: pointer;
+            }
+    }
+}
+.tags_tag{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+        margin-left: -30px;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: rgb(6, 103, 148);
+    }
+    ul{
+        list-style: none;
+        li{
+            margin-left: 20px;
+            font-size: 20px;
+            font-family: sans-serif;
+            color: rgb(6, 103, 148);
+            margin-top: 10px;
+            cursor: pointer;
+    }
+}
+}
+.companeya_name{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+        margin-left: 30px;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: rgb(6, 103, 148);
+    }
+    ul{
+        list-style: none;
+        li{
+            margin-left: 20px;
+            font-size: 20px;
+            font-family: sans-serif;
+            color: rgb(6, 103, 148);
+            margin-top: 10px;
+            cursor: pointer;
+    }
+}
+}
+
+}
+}
+
+.products{
+    margin-top: 20px;
+    margin-left: 120px;
+    h2{
+        font-size: 30px;
+        text-align: center;
+        font-family: sans-serif;
+        color: rgb(6, 103, 148);
+    }
+    .product_list{
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 60px;
+        .product{
+           width: 250px;
+            img{
+                width: 250px;
+                height: 280px;
+                border-radius: 20px;
+            }
+            .product_name{
+                font-size: 18px;
+                margin-left: 20px;
+                font-family: sans-serif;
+                color: rgb(6, 103, 148);
+                text-align: left;
+                margin-top: 16px;
+                margin-bottom: 10px;
+            }
+
+            .product_price{
+                margin-left: 20px;
+                font-size: 18px;
+                font-family: sans-serif;
+                color: rgb(6, 103, 148);
+                text-align: left;
+                margin-bottom: 10px;
+                strike{
+                    color: red;
+                }
+                .add-cart{
+                    margin-left: 20px;
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    color: rgb(6, 103, 148);
+                    text-align: right;
+                    background-color: rgb(218, 213, 213);
+                    border-radius: 30px;
+                    padding: 5px;
+                    cursor: pointer;
+                    margin-left: 80px;
+                }
+            }
+        }
+    }
+}
+
+.no-products{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(6, 103, 148);
+}

@@ -1,0 +1,249 @@
+.proucts-setting-main{
+    margin-top: 20px;
+    max-width: 1400px;
+    margin-left: 40px;
+    h2{
+        margin-left: -580px;
+        font-size: 30px;
+        text-align: center;
+        font-family: sans-serif;
+        color: rgb(6, 103, 148);
+    }
+    .search-product{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        input{
+            font-size: 20px;
+            font-family: sans-serif;
+            color: rgb(6, 103, 148);
+            padding-left: 30px;
+            margin-top: 20px;
+            width: 900px;
+            height: 50px;
+            border-radius: 10px;
+            border: 1px solid rgb(6, 103, 148);
+            outline: none;
+        }
+        .search{
+            margin-top: 20px;
+            margin-left: 30px;
+            font-size: 20px;
+            background-color: rgb(6, 103, 148);
+            color: white;
+            padding: 19px;
+            border-radius: 10px;
+        }
+    }
+    .products-setting{
+        padding-top: 20px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        flex-direction: column;
+                .product{
+                    width: 100%;
+                    background-color: white;
+                    margin-top: 30px;
+                    display: flex;
+                    padding: 20px;
+                    border-radius: 20px;
+                    img{
+                        margin-left: 30px;
+                        border-radius: 20px;
+                        width: 200px;
+                        height: 200px;
+                    }
+                    .text-products{
+                        margin-left: 30px;
+                        font-size: 20px;
+                        font-family: sans-serif;
+                        h3{
+                            color: rgb(6, 103, 148);
+                        }
+                        p{
+                            color: rgb(74, 117, 10);
+                            strike{
+                                text-decoration: line-through;
+                                color: red;
+                            }
+                        }
+                    }
+                    .settings{
+                        margin-left: 400px;
+                        margin-top: 20px;
+                        .delete{
+                            margin-bottom: 20px;
+                            button{
+                                background-color: red;
+                                color: white;
+                                border-radius: 10px;
+                                padding: 10px;
+                                font-size: 20px;
+                                margin-top: 10px;
+                                border: none;
+                                width: 120px;
+                                cursor: pointer;
+                                &:hover{
+                                    background-color: rgba(255, 0, 0, 0.288);
+                                    color: rgba(255, 255, 255, 0.589);
+                                }
+                                &:active{
+                                    transform: scale(0.9);
+                                    transition: 0.9s;
+                                }
+                            }
+                        }
+                        .update{
+                            button{
+                                width: 120px;
+                                background-color: rgb(6, 103, 148);
+                                color: white;
+                                border-radius: 10px;
+                                padding: 10px;
+                                font-size: 20px;
+                                margin-top: 10px;
+                                border: none;
+                                cursor: pointer;
+                                &:hover{
+                                    background-color: rgba(6, 103, 148, 0.288);
+                                    color: rgba(255, 255, 255, 0.589);
+                                }
+                                &:active{
+                                    transform: scale(0.9);
+                                    transition: 0.9s;
+                                }
+                            }
+                        }
+                    }
+                }
+    }
+}
+
+.notfound{
+    margin-top: -390px;
+}
+
+.update_products{
+    overflow: none;
+    position: absolute;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    .update_products_main{
+        z-index: 10;
+        background-color: white;
+        width: 700px;
+        height: 700px;
+        border-radius: 20px;
+        margin-top: 100px;
+        margin-left: 600px;
+        padding: 20px;
+        .text-title{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        h3{
+            color: rgb(6, 103, 148);
+            font-size: 20px;
+        }
+    
+        span{
+            cursor: pointer;
+            color: red;
+            font-size: 30px;
+        }
+    }
+    .update_inp{
+        display: flex;
+        flex-direction: column;
+        input{
+            margin-top: 20px;
+            font-size: 20px;
+            font-family: sans-serif;
+            color: rgb(6, 103, 148);
+            margin-top: 20px;
+            padding: 17px;
+            border-radius: 20px;
+            outline: none;
+            border: 1px solid rgb(6, 103, 148);
+        }
+        .inp_block{
+            display: flex;
+            align-items: center;
+            gap: 0 20px;
+            widows: 100%;
+        }
+    }
+    }
+}
+
+.image-uploads {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #007bff;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+    margin-left: 0px;
+    margin-top: 40px;
+    &:hover {
+        background-color: #e9f5ff;
+    }
+
+    .image-upload-label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        font-size: 18px;
+        color: #007bff;
+        text-align: center;
+
+        .fa-cloud-upload-alt {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        span {
+            margin-bottom: 10px;
+        }
+    }
+
+    .image-upload-input {
+        display: none;
+    }
+
+    .image-preview {
+        margin-top: 20px;
+        max-width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+.add-button-update{
+    button{
+        background-color: rgb(6, 103, 148);
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 20px;
+        margin-top: 90px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+}

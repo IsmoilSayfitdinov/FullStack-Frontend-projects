@@ -1,0 +1,31 @@
+.getusers{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    h1{
+        font-size: 40px;
+        margin-top: 50px;
+        color: #00a2ff;
+    }
+    .blockgetusers{
+        padding-left: 30px;
+        width: 800px;
+        padding: 20px;
+        overflow: auto;
+        .user{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 30px;
+            background-color: white;
+            border-radius: 20px;
+            margin-left: -23px;
+            h3{
+                font-size: 20px;
+                color: #00a2ff;
+            }
+        }
+    }
+}

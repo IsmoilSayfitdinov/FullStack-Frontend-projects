@@ -1,0 +1,85 @@
+.Login_main{
+    background-color: rgb(6, 103, 148);
+    padding-top: 40px;
+    .login_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            color: white;
+            font-size: 50px;
+            font-family: sans-serif;
+        }
+    }
+
+
+
+    .login_inp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        input{
+            position: relative;
+            padding: 10px;
+            width: 300px;
+            outline: none;
+            height: 30px;
+            font-size: 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 20px;
+    }
+    .eye1{
+        position: absolute;
+        cursor: pointer;
+        bottom: 536px;
+        font-size: 23px;
+        left: 1070px;
+    }
+
+    .eye2{
+        position: absolute;
+        cursor: pointer;
+        bottom: 375px;
+        font-size: 23px;
+        left: 1070px;
+
+    }
+    button{
+        margin-top: 10px;
+        width: 300px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        background-color: white;
+        color: rgb(6, 103, 148);
+        font-size: 20px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgb(45, 72, 85);
+            color: white;
+        }
+
+        &:active{
+            transform: scale(0.9);
+            transition: 0.9s;
+        }
+    }
+}
+}
+
+.login{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
